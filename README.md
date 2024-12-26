@@ -14,7 +14,7 @@ luego se pueden correr Request1, Request2, y Request3 de manera libre e independ
 en el ambito local
 
 
-Adjunto esta el archivo Scrape, que contiene los metodos 
+Adjunto esta el archivo Endpoint, que contiene los metodos 
 /Scrape: El cual recibe el script Request1, pidiendo una URL por pantalla
         dando como respuesta un archivo JSON con todos los selectores <p> 
         de una web.
@@ -27,6 +27,7 @@ Adjunto esta el archivo Scrape, que contiene los metodos
 
 /combined: el cual recibe el script request3, que pide una url por teclado, realiza scrapping de la pagina
         devuelve el resultado del sentimiento de la IA de hugginface y dejando el archivo del sentimiento,
-        creando si no hay una base de datos sqlite para guardar todos y cada uno de los archivos de sentimiento
+        creando si no hay una base de datos sqlite para guardar todos y cada uno de los datos del sentimiento.
+        y los parrafos scrapeados del origen
 
 
