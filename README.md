@@ -4,7 +4,8 @@ Esta es una Aplicacion creada para realizar un servidor local python de forma En
 Se debe instalar al menos version de Node.js v20.10.0 y Python 3.12.1
 
 ejecutando el comando para todas las dependencias
-npm install axios cheerio @huggingface/transformers torch
+
+*npm install axios cheerio @huggingface/transformers torch*
 
 Las request fueron realizadas exclusivamente en Lenguaje python
 El uso requiere que se corra el archivo EndPoint.py
