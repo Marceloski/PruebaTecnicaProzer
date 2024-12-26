@@ -17,15 +17,15 @@ def send_post_request():
     }
 
     try:
-        # Enviar la solicitud POST con el texto
+        # Envia la solicitud POST con el texto del usuario
         response = requests.post(url, json=payload)
 
-        # Verificar si la respuesta es exitosa
+        # Verifica si la respuesta es exitosa
         if response.status_code == 200:
             print("Respuesta del servidor:")
             print(response.json())
 
-            # Guardar la respuesta en un archivo JSON
+            # Guarda la respuesta en un archivo JSON
             with open("Respuesta_de_Sentimiento.json", "w", encoding="utf-8") as json_file:
                 json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
             print("Archivo guardado como 'Respuesta_de_Sentimiento.json'")

@@ -8,7 +8,7 @@ import json
 import sqlite3
 
 def initialize_database():
-    # Crear la base de datos y la tabla si no existen
+    # Crea la base de datos y la tabla si no existen
     conn = sqlite3.connect("combined_logs.db")
     cursor = conn.cursor()
     cursor.execute(
@@ -26,7 +26,7 @@ def initialize_database():
     conn.close()
 
 def save_to_database(url, sentiment, paragraphs):
-    # Guardar los datos en la base de datos
+    # Guarda los datos en la base de datos
     conn = sqlite3.connect("combined_logs.db")
     cursor = conn.cursor()
     cursor.execute(

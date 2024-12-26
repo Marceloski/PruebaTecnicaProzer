@@ -8,18 +8,18 @@
 import requests
 
 def scrape_request():
-    # Solicitar la URL en teclado
+    # Solicita la URL por teclado
     user_url = input("Introduce la URL para realizar el scraping: ")
 
-    # Configurar la solicitud al servidor local
+    # Configura la solicitud al servidor local
     url = "http://127.0.0.1:5000/scrape"
     payload = {"url": user_url}
     headers = {"Content-Type": "application/json"}
 
-    # Realizar la solicitud POST
+    # Realiza la solicitud POST
     response = requests.post(url, json=payload, headers=headers)
 
-    # Procesar la respuesta y el tiempo de ejecucion
+    # Procesa la respuesta y el tiempo de ejecucion
     if response.status_code == 200:
         print("Response:", response.json())
     else:
