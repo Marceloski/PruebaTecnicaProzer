@@ -7,6 +7,14 @@ ejecutando el comando para todas las dependencias
 
 *npm install axios cheerio @huggingface/transformers torch*
 
+Con Versiones de al menos 
+ @huggingface/inference: V2.8.1
+  axios: V1.7.9
+  transformers: V3.1.0
+  Beautiful Soup: V4.12.3
+  pytorch: V2.5.1
+  cherrio: V1.0.0
+  
 Las request fueron realizadas exclusivamente en Lenguaje python
 El uso requiere que se corra el archivo EndPoint.py
 
