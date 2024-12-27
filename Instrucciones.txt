@@ -1,0 +1,17 @@
+Para poder inicializar el proyecto se debe instalar Node.js v20.10.0 y Python 3.12.1
+
+Luego utilizar los comandos npm install axios cheerio @huggingface/transformers torch
+para instalar las dependencias necesarias en el sistema
+@huggingface/inference: V2.8.1 axios: V1.7.9 transformers: V3.1.0 Beautiful Soup: V4.12.3 pytorch: V2.5.1 cherrio: V1.0.0
+
+Luego iniciar el archivo Endpoint.py donde creara un servidor local
+
+Luego correr los archivos Request1, Request2, y Request3 de manera libre
+
+ingresar por teclado la URL para Request1
+
+ingresar por teclado el texto para Request2
+
+ingresar por teclado la URL para Request3
+
+los archivos resultantes quedaran en formato .json dentro de la carpeta del endpoint
